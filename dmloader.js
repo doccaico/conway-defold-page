@@ -48,7 +48,7 @@ var CUSTOM_PARAMETERS = {
         return ("archive" + path + "");
     },
     engine_arguments: ["--verify-graphics-calls=false",],
-    custom_heap_size: 268435456,
+    custom_heap_size: 134217728,
     full_screen_container: "#canvas-container",
     disable_context_menu: true,
     retry_time:1.0,
@@ -92,8 +92,8 @@ var CUSTOM_PARAMETERS = {
         }
         CUSTOM_PARAMETERS.resize_window_prev_inner_width = innerWidth;
         CUSTOM_PARAMETERS.resize_window_prev_inner_height = innerHeight;
-        var width = 960;
-        var height = 640;
+        var width = 640;
+        var height = 1136;
         var targetRatio = width / height;
         var actualRatio = innerWidth / innerHeight;
     

@@ -10,8 +10,8 @@ compress_archive = 1
 title_as_file_name = CGOL
 
 [display]
-width = 960
-height = 640
+width = 640
+height = 1136
 high_dpi = 1
 samples = 0
 fullscreen = 0
@@ -24,9 +24,9 @@ variable_dt = 0
 display_device_info = 0
 
 [render]
-clear_color_red = 0
-clear_color_green = 0
-clear_color_blue = 0
+clear_color_red = 0.0
+clear_color_green = 0.0
+clear_color_blue = 0.0
 clear_color_alpha = 1
 
 [physics]
@@ -185,7 +185,7 @@ localizations = en
 
 [html5]
 custom_heap_size = 0
-heap_size = 256
+heap_size = 128
 htmlfile = /builtins/manifests/web/engine_template.html
 cssfile = /builtins/manifests/web/light_theme.css
 archive_location_prefix = archive
