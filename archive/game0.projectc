@@ -17,9 +17,9 @@ samples = 0
 fullscreen = 0
 display_profiles = /builtins/render/default.display_profilesc
 dynamic_orientation = 0
-update_frequency = 15
+update_frequency = 0
 swap_interval = 1
-vsync = 0
+vsync = 1
 variable_dt = 0
 display_device_info = 0
 
